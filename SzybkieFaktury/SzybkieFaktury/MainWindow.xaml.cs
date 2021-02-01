@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using System.Data.OleDb;
 namespace SzybkieFaktury
 {
     /// <summary>
@@ -23,6 +23,13 @@ namespace SzybkieFaktury
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+       
+        private void AddCompany_Button(object sender, RoutedEventArgs e)
+        {
+            AddCompany Win1 = new AddCompany();
+            Win1.Show();
         }
     }
 }
