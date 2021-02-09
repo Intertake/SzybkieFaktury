@@ -19,3 +19,13 @@ D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\AddCompany.g.cs
 D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\AddCompany.baml
 D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\ConfirmationDel.g.cs
 D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\ConfirmationDel.baml
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\AddCompanyToInvoice.g.cs
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\AddInvoice.g.cs
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\ConfirmationDelInvoice.g.cs
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\EditInvoice.g.cs
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\Invoices.g.cs
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\AddCompanyToInvoice.baml
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\AddInvoice.baml
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\ConfirmationDelInvoice.baml
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\EditInvoice.baml
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\Invoices.baml

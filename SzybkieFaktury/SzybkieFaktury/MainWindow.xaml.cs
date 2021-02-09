@@ -23,13 +23,18 @@ namespace SzybkieFaktury
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-       
-        private void AddCompany_Button(object sender, RoutedEventArgs e)
+        }  
+      
+        private void Companies_Button(object sender, RoutedEventArgs e)
         {
             AddCompany Win1 = new AddCompany();
             Win1.Show();
+        }
+
+        private void AddInvoice_Click(object sender, RoutedEventArgs e)
+        {
+            Invoices Win2 = new Invoices();
+            Win2.Show();
         }
     }
 }

@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Dodaj firme" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="AddCompany_Button"/>
+        <Button Content="Firmy" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Companies_Button"/>
+        <Button x:Name="AddInvoice" Content="Faktury" HorizontalAlignment="Left" Margin="121,10,0,0" VerticalAlignment="Top" Width="75" Click="AddInvoice_Click"/>
 
     </Grid>
 </Window>

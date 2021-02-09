@@ -1,0 +1,21 @@
+﻿<Window x:Class="SzybkieFaktury.AddInvoice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SzybkieFaktury"
+        mc:Ignorable="d"
+        Title="AddInvoice" Height="450" Width="800">
+    <Grid>
+        <Label Content="Przedmiot" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top" Height="27" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="10,172,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="258"/>
+        <Label Content="Ilość" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" Height="23" Width="102"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,230,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Cena Netto" HorizontalAlignment="Left" Margin="10,258,0,0" VerticalAlignment="Top" Height="27" Width="127"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,290,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <DataGrid HorizontalAlignment="Left" Height="237" Margin="378,16,0,0" VerticalAlignment="Top" Width="391"/>
+        <Button Content="Dodaj do faktury" HorizontalAlignment="Left" Margin="10,368,0,0" VerticalAlignment="Top" Width="161"/>
+        <Button Content="Zamknij fakturę" HorizontalAlignment="Left" Margin="599,333,0,0" VerticalAlignment="Top" Width="136"/>
+
+    </Grid>
+</Window>

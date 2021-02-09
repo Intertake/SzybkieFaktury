@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\App.xaml
-3842650440
+8673475821
 1-812874428
-9-885543326
+14-1159197980
 141066371409
-AddCompany.xaml;ConfirmationDel.xaml;MainWindow.xaml;
+AddCompany.xaml;AddCompanyToInvoice.xaml;AddInvoice.xaml;ConfirmationDel.xaml;ConfirmationDelInvoice.xaml;EditInvoice.xaml;Invoices.xaml;MainWindow.xaml;
 
 False
 

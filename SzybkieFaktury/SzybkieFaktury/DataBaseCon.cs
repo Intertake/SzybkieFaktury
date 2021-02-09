@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Data.OleDb;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace SzybkieFaktury
 {
@@ -22,6 +24,16 @@ namespace SzybkieFaktury
             cmd.ExecuteNonQuery();
             con.Close();
         }
+        public static void GridViewSelect(string query, string table, DataGrid dataGrid)
+        {
+            string CmdString = query;
+            OleDbDataAdapter sda = new OleDbDataAdapter(CmdString, ConfigurationManager.ConnectionStrings["Connection"].ToString());
+            DataTable dt = new DataTable(table);
+            sda.Fill(dt);
+            dataGrid.ItemsSource = dt.DefaultView;
+         
+        }
+
         
     }
 }

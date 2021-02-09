@@ -1,0 +1,16 @@
+﻿<Window x:Class="SzybkieFaktury.AddCompanyToInvoice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SzybkieFaktury"
+        mc:Ignorable="d"
+        Title="AddCompanyToInvoice" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="AddInvoiceToCompany_TextBox" HorizontalAlignment="Left" Height="22" Margin="10,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" TextChanged="TextBox_TextChanged"/>
+        <DataGrid x:Name="AddCompanyToInvoice_DataGrid" HorizontalAlignment="Left" Height="79" Margin="10,67,0,0" VerticalAlignment="Top" Width="258" SelectionChanged="AddCompanyToInvoice_DataGrid_SelectionChanged"/>
+        <Label Content="Wybierz firmę" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Width="175"/>
+        <Button x:Name="CreateInvoice_Button" Content="Utwórz fakture" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" Width="202" Height="29" Click="CreateInvoice_Button_Click"/>
+
+    </Grid>
+</Window>

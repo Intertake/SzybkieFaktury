@@ -7,21 +7,22 @@
         mc:Ignorable="d"
         Title="AddCompany" Height="450" Width="800">
     <Grid>
-        <Button Content="Dodaj firme" HorizontalAlignment="Left" Margin="103,215,0,0" VerticalAlignment="Top" Width="75" Click="AddCompany_Button"/>
+        <Button Content="Dodaj firme" HorizontalAlignment="Left" Margin="133,207,0,0" VerticalAlignment="Top" Width="120" Click="AddCompany_Button" Height="24"/>
         <Label Content="NIP" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Label Content="Nazwa" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="55"/>
         <Label Content="Miasto" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
         <Label Content="Ulica" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
         <Label Content="Numer budynku" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
         <Label Content="Kod pocztowy" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="AddNip_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,13,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="AddName_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,44,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="AddCity_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="AddStreet_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,103,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="AddBuilding_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,137,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="AddPostcode_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,168,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <DataGrid x:Name="AddingCompany_DataGridView" HorizontalAlignment="Left" Height="256" Margin="299,13,0,0" VerticalAlignment="Top" Width="483"/>
-        <Button x:Name="DelCompany_Button" Content="Usuń firmę" HorizontalAlignment="Left" Margin="502,327,0,0" VerticalAlignment="Top" Width="75" Click="DelCompany_Button_Click"/>
+        <TextBox x:Name="AddNip_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="example"/>
+        <TextBox x:Name="AddName_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,44,0,0" TextWrapping="Wrap" Text="example" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="AddCity_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,72,0,0" TextWrapping="Wrap" Text="example" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="AddStreet_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,103,0,0" TextWrapping="Wrap" Text="example" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="AddBuilding_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,137,0,0" TextWrapping="Wrap" Text="example" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="AddPostcode_TextBox" HorizontalAlignment="Left" Height="23" Margin="133,168,0,0" TextWrapping="Wrap" Text="example" VerticalAlignment="Top" Width="120"/>
+        <DataGrid x:Name="AddingCompany_DataGridView" HorizontalAlignment="Left" Height="256" Margin="299,13,0,0" VerticalAlignment="Top" Width="483" SelectionChanged="AddingCompany_DataGridView_SelectionChanged"/>
+        <Button x:Name="DelCompany_Button" Content="Usuń firmę" HorizontalAlignment="Left" Margin="688,274,0,0" VerticalAlignment="Top" Width="94" Click="DelCompany_Button_Click" Height="32"/>
+        <Button x:Name="EditCompany_Button" Content="Edytuj firmę" HorizontalAlignment="Left" Margin="133,236,0,0" VerticalAlignment="Top" Width="120" Height="26" Click="EditCompany_Button_Click"/>
 
     </Grid>
 </Window>
