@@ -8,9 +8,9 @@
         Title="AddCompanyToInvoice" Height="450" Width="800">
     <Grid>
         <TextBox x:Name="AddInvoiceToCompany_TextBox" HorizontalAlignment="Left" Height="22" Margin="10,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" TextChanged="TextBox_TextChanged"/>
-        <DataGrid x:Name="AddCompanyToInvoice_DataGrid" HorizontalAlignment="Left" Height="79" Margin="10,67,0,0" VerticalAlignment="Top" Width="258" SelectionChanged="AddCompanyToInvoice_DataGrid_SelectionChanged"/>
+        <DataGrid x:Name="AddCompanyToInvoice_DataGrid" HorizontalAlignment="Left" Height="170" Margin="10,67,0,0" VerticalAlignment="Top" Width="520"/>
         <Label Content="Wybierz firmę" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Width="175"/>
-        <Button x:Name="CreateInvoice_Button" Content="Utwórz fakture" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" Width="202" Height="29" Click="CreateInvoice_Button_Click"/>
+        <Button x:Name="CreateInvoice_Button" Content="Utwórz fakture" HorizontalAlignment="Left" Margin="10,242,0,0" VerticalAlignment="Top" Width="202" Height="29" Click="CreateInvoice_Button_Click"/>
 
     </Grid>
 </Window>

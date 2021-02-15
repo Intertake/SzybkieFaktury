@@ -112,6 +112,7 @@
     <Compile Include="EditInvoice.xaml.cs">
       <DependentUpon>EditInvoice.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Invoice.cs" />
     <Compile Include="Invoices.xaml.cs">
       <DependentUpon>Invoices.xaml</DependentUpon>
     </Compile>

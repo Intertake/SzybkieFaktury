@@ -8,7 +8,7 @@
         Title="Invoices" Height="450" Width="800">
     <Grid>
         <Button x:Name="AddInvoice_Button" Content="Dodaj fakture" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="94" Height="27" Click="AddInvoice_Button_Click"/>
-        <DataGrid HorizontalAlignment="Left" Height="308" Margin="220,42,0,0" VerticalAlignment="Top" Width="562"/>
+        <DataGrid x:Name="Invoices_datagrid" HorizontalAlignment="Left" Height="308" Margin="220,42,0,0" VerticalAlignment="Top" Width="562"/>
         <Button x:Name="EditInvoice_Button" Content="Edytuj fakturę" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="94" Height="28" Click="EditInvoice_Button_Click"/>
         <Button x:Name="DelInvoice_Button" Content="Usuń fakturę" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="94" Height="26" Click="DelInvoice_Button_Click"/>
         <Button x:Name="ShowInvoice" Content="Pokaż faktuę" HorizontalAlignment="Left" Margin="646,355,0,0" VerticalAlignment="Top" Width="136" Height="27"/>

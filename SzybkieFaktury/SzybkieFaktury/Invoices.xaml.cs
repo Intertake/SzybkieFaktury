@@ -22,12 +22,14 @@ namespace SzybkieFaktury
         public Invoices()
         {
             InitializeComponent();
+            DataBaseCon.GridViewSelect("SELECT * FROM invoice ", "invoice", Invoices_datagrid);
         }
 
         private void AddInvoice_Button_Click(object sender, RoutedEventArgs e)
         {
             AddCompanyToInvoice Win1 = new AddCompanyToInvoice();
             Win1.Show();
+
         }
 
         private void EditInvoice_Button_Click(object sender, RoutedEventArgs e)
@@ -41,5 +43,7 @@ namespace SzybkieFaktury
             ConfirmationDelInvoice Win3 = new ConfirmationDelInvoice();
             Win3.Show();
         }
+
+        
     }
 }

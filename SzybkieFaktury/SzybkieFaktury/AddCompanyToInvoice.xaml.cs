@@ -28,8 +28,11 @@ namespace SzybkieFaktury
 
         private void CreateInvoice_Button_Click(object sender, RoutedEventArgs e)
         {
-            AddInvoice Win1 = new AddInvoice();
+            string id_company=(AddCompanyToInvoice_DataGrid.SelectedCells[0].Column.GetCellContent(AddCompanyToInvoice_DataGrid.SelectedItem) as TextBlock).Text;
+            DataBaseCon.Query(Invoice.AddInvoice(id_company));
+            AddInvoice Win1 = new AddInvoice(Convert.ToInt32(id_company));
             Win1.Show();
+          
 
         }
 
@@ -39,9 +42,6 @@ namespace SzybkieFaktury
             DataBaseCon.GridViewSelect("SELECT * FROM Company where nip like" + AddInvoiceToCompany_TextBox.Text + ";", "Company", AddCompanyToInvoice_DataGrid);
         }
 
-        private void AddCompanyToInvoice_DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
+        
     }
 }

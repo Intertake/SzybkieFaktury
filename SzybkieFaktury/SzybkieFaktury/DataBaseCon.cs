@@ -33,7 +33,24 @@ namespace SzybkieFaktury
             dataGrid.ItemsSource = dt.DefaultView;
          
         }
+        public static string ReadData(string queryString)
+        {
+            using (OleDbConnection connection = new OleDbConnection(ConfigurationManager.ConnectionStrings["Connection"].ToString()))
+            {
+                OleDbCommand command = new OleDbCommand(queryString, connection);
 
-        
+                connection.Open();
+                OleDbDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    return reader[0].ToString();
+                }
+                reader.Close();
+            }
+            return null;
+        }
+
+
     }
 }

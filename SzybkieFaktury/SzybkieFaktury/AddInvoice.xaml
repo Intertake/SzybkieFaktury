@@ -7,15 +7,19 @@
         mc:Ignorable="d"
         Title="AddInvoice" Height="450" Width="800">
     <Grid>
-        <Label Content="Przedmiot" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top" Height="27" Width="175"/>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="10,172,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="258"/>
-        <Label Content="Ilość" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" Height="23" Width="102"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,230,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Cena Netto" HorizontalAlignment="Left" Margin="10,258,0,0" VerticalAlignment="Top" Height="27" Width="127"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,290,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <DataGrid HorizontalAlignment="Left" Height="237" Margin="378,16,0,0" VerticalAlignment="Top" Width="391"/>
-        <Button Content="Dodaj do faktury" HorizontalAlignment="Left" Margin="10,368,0,0" VerticalAlignment="Top" Width="161"/>
-        <Button Content="Zamknij fakturę" HorizontalAlignment="Left" Margin="599,333,0,0" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Przedmiot" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" Height="27" Width="175"/>
+        <TextBox x:Name="Item_text" HorizontalAlignment="Left" Height="25" Margin="10,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
+        <Label Content="Ilość" HorizontalAlignment="Left" Margin="10,278,0,0" VerticalAlignment="Top" Height="23" Width="102"/>
+        <TextBox x:Name="Quantity_text" HorizontalAlignment="Left" Height="23" Margin="10,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Cena Netto" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" Height="27" Width="127"/>
+        <TextBox x:Name="netto_text" HorizontalAlignment="Left" Height="23" Margin="10,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <DataGrid x:Name="invoiceGoods_GridView" HorizontalAlignment="Left" Height="211" Margin="10,10,0,0" VerticalAlignment="Top" Width="419"/>
+        <Button x:Name="AddItemToInvoice_button" Content="Dodaj do faktury" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Width="161" Click="AddItemToInvoice_button_Click"/>
+        <Button x:Name="close_invoice" Content="Zamknij fakturę" HorizontalAlignment="Left" Margin="633,382,0,0" VerticalAlignment="Top" Width="149" Click="close_invoice_Click" Height="27"/>
+        <Label Content="Data płatności" HorizontalAlignment="Left" Margin="450,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.381,0.392" Height="28" Width="127"/>
+        <TextBox x:Name="Payment_Text" HorizontalAlignment="Left" Height="26" Margin="450,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="auth_recieve" HorizontalAlignment="Left" Height="23" Margin="450,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <Label Content="Osoba uprawniona do odbioru" HorizontalAlignment="Left" Margin="450,78,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
