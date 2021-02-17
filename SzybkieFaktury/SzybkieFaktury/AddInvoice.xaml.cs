@@ -42,9 +42,7 @@ namespace SzybkieFaktury
             netto_text.Text = null;
             DataBaseCon.GridViewSelect("SELECT * FROM invoiceGoods where id_invoice="+ DataBaseCon.ReadData("SELECT TOP 1 id_invoice FROM Invoice ORDER BY id_invoice DESC"), "invoiceGoods", invoiceGoods_GridView);
             
-
         }
-
         private void close_invoice_Click(object sender, RoutedEventArgs e)
         {
             DataBaseCon.Query(Invoice.UpdateInvoice(DataBaseCon.ReadData("SELECT TOP 1 id_invoice FROM Invoice ORDER BY id_invoice DESC"), auth_recieve.Text, Payment_Text.Text));

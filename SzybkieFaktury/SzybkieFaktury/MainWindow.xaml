@@ -9,6 +9,7 @@
     <Grid>
         <Button Content="Firmy" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Companies_Button"/>
         <Button x:Name="AddInvoice" Content="Faktury" HorizontalAlignment="Left" Margin="121,10,0,0" VerticalAlignment="Top" Width="75" Click="AddInvoice_Click"/>
+        <Button Content="Generuj pdf" HorizontalAlignment="Left" Margin="229,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
     </Grid>
 </Window>

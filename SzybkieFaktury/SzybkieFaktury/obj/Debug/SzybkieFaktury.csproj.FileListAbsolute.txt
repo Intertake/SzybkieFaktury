@@ -29,3 +29,11 @@ D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\AddInvoice.baml
 D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\ConfirmationDelInvoice.baml
 D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\EditInvoice.baml
 D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\Invoices.baml
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\bin\Debug\Syncfusion.Compression.Base.dll
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\bin\Debug\Syncfusion.Licensing.dll
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\bin\Debug\Syncfusion.Pdf.Base.dll
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\bin\Debug\Syncfusion.Compression.Base.xml
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\bin\Debug\Syncfusion.Pdf.Base.xml
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\GeneratePDF.g.cs
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\GeneratePDF.baml
+D:\SzybkieFaktury\szybkiefaktury\SzybkieFaktury\obj\Debug\SzybkieFaktury.csproj.CopyComplete

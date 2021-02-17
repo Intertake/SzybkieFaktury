@@ -51,6 +51,20 @@ namespace SzybkieFaktury
             return null;
         }
 
+        public static decimal GridCalc(string query, string table, DataGrid dataGrid, int columnNumber)
+        {
+            string CmdString = query;
+            OleDbDataAdapter sda = new OleDbDataAdapter(CmdString, ConfigurationManager.ConnectionStrings["Connection"].ToString());
+            DataTable dt = new DataTable(table);
+            sda.Fill(dt);
+            dataGrid.ItemsSource = dt.DefaultView;
 
+            decimal sum = 0;
+            for (int i = 0; i < dataGrid.Items.Count - 1; i++)
+            {
+                sum += (decimal.Parse((dataGrid.Columns[columnNumber].GetCellContent(dataGrid.Items[i]) as TextBlock).Text));
+            }
+            return sum;
+        }
     }
 }

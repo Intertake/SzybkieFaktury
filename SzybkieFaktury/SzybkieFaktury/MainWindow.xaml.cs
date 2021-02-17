@@ -36,5 +36,11 @@ namespace SzybkieFaktury
             Invoices Win2 = new Invoices();
             Win2.Show();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            GeneratePDF Win2 = new GeneratePDF();
+            Win2.Show();
+        }
     }
 }
